@@ -1,4 +1,4 @@
-package model.entretien;
+package common.DTO;
 
 import model.entretien.ProfilStatut;
 import model.entretien.Specialite;
@@ -8,11 +8,11 @@ import java.util.List;
 public class ProfilDTO {
     private String nom;
     private String prenom;
-    private List<Specialite> specialite;
+    private Specialite specialite;
     private int nbAnneeExp;
     private ProfilStatut profilStatut;
 
-    public ProfilDTO(String nom, String prenom, List<Specialite> specialite, int nbAnneeExp, ProfilStatut profilStatut) {
+    public ProfilDTO(String nom, String prenom, Specialite specialite, int nbAnneeExp, ProfilStatut profilStatut) {
         this.nom = nom;
         this.prenom = prenom;
         this.specialite = specialite;
@@ -36,11 +36,11 @@ public class ProfilDTO {
         this.prenom = prenom;
     }
 
-    public List<Specialite> getSpecialite() {
+    public Specialite getSpecialite() {
         return specialite;
     }
 
-    public void setSpecialite(List<Specialite> specialite) {
+    public void setSpecialite(Specialite specialite) {
         this.specialite = specialite;
     }
 

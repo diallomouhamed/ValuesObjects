@@ -13,13 +13,14 @@ class EntretienTest {
 
     @Test
     public void testEntretien() {
+        /*
         try {
             creneau = new Creneau(LocalDateTime.of(2020, 3, 11, 14, 30), Duration.ofHours(2));
             salle = new Salle(1, 110, 4);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-
+         */
         String [] participant = new String[10];
 
         /*
@@ -35,12 +36,14 @@ class EntretienTest {
 
     @Test
     public void testConfirmer() {
+        /*
         try {
             creneau = new Creneau(LocalDateTime.now(), Duration.ofHours(2));
             salle = new Salle(1, 110, 10);
         } catch (Exception e) {
             System.out.println(e.getStackTrace());
         }
+         */
         String [] participant = new String[10];
 
         /*
@@ -62,12 +65,14 @@ class EntretienTest {
 
     @Test
     public void testAnnuler() {
+        /*
         try {
             creneau = new Creneau(LocalDateTime.now(), Duration.ofHours(2));
             salle = new Salle(1, 110, 10);
         } catch (Exception e) {
             System.out.println(e.getStackTrace());
         }
+         */
         String [] participant = new String[10];
 
         /*

@@ -1,5 +1,7 @@
 package model.entretien;
 
+import common.DTO.CreneauDTO;
+
 import java.time.Duration;
 import java.time.LocalDateTime;
 
@@ -13,8 +15,12 @@ class Creneau {
     }
 
     public static Creneau creerCreneau(CreneauDTO creneauDTO) throws Exception {
-        if (creneauDTO.getDuree().isNegative() || creneauDTO.getDate().getHour() < 8 || creneauDTO.getDate().getHour() + creneauDTO.getDuree().toHours() > 19)
+        if (creneauDTO.getDuree().isNegative()
+                || creneauDTO.getDate().getDayOfWeek().getValue() > 5
+                || creneauDTO.getDate().getHour() < 8
+                || creneauDTO.getDate().getHour() + creneauDTO.getDuree().toHours() > 19) {
             throw new Exception("Les données du créneau sont érronnée");
+        }
         return new Creneau(creneauDTO);
     }
 

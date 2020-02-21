@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37e399e5-8033-4396-b21b-b7f3fed83212" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/entretien/Profil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/salle/Salle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ValueObject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ValueObject/entretien/Creneau.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ValueObject/entretien/Entretien.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ValueObject/entretien/EntretienID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ValueObject/entretien/Salle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ValueObject/entretien/StatutEntretien.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ValueObject/test/CreneauTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ValueObject/test/EntretienTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ValueObject/test/SalleTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/Creneau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entretien/Creneau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/CreneauDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/DTO/CreneauDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/Entretien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entretien/Entretien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/EntretienStatut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entretien/EntretienStatut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/Salle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/profil/Profil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/profil/ProfilStatut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entretien/ProfilStatut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/profil/Specialite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entretien/Specialite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/entretien/EntretienTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/entretien/EntretienTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/entretien/SalleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/entretien/SalleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/EntretienDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/DTO/EntretienDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/EntretienID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/Profil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entretien/Profil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/ProfilDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/DTO/ProfilDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entretien/ProfilStatut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entretien/ProfilStatut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/salle/Salle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/salle/Salle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/salle/SalleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/DTO/SalleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/use_case/entretien/CreerEntretien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/use_case/entretien/CreerEntretien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/use_case/salle/ReserverSalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/use_case/salle/ReserverSalle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/entretien/CreneauTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/entretien/CreneauTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/profil/ProfilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/entretien/ProfilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +66,7 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in ValuesObjects">
     <configuration name="blo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="use_case.entretien.blo" />
       <module name="ValuesObjects" />
@@ -88,8 +80,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in ValuesObjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ValuesObjects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in ValuesObjects" />
         <item itemvalue="Application.blo" />
       </list>
     </recent_temporary>
@@ -109,6 +110,8 @@
       <workItem from="1582275879862" duration="4282000" />
       <workItem from="1582281054381" duration="3805000" />
       <workItem from="1582285498743" duration="40000" />
+      <workItem from="1582285822261" duration="829000" />
+      <workItem from="1582291588157" duration="8110000" />
     </task>
     <servers />
   </component>
@@ -116,10 +119,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582280105442">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582299926062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1582280105442" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582299926062" />
+    <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582298641193">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1582298641193" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582214427124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,11 +1,13 @@
 package model.entretien;
 
+import common.DTO.ProfilDTO;
+
 import java.util.List;
 
-public class Profil {
+class Profil {
     private String nom;
     private String prenom;
-    private List<Specialite> specialite;
+    private Specialite specialite;
     private int nbAnneeExp;
     private ProfilStatut profilStatut;
 
@@ -25,7 +27,7 @@ public class Profil {
         return prenom;
     }
 
-    public List<Specialite> getSpecialite() {
+    public Specialite getSpecialite() {
         return specialite;
     }
 
@@ -35,5 +37,13 @@ public class Profil {
 
     public ProfilStatut getProfilStatut() {
         return profilStatut;
+    }
+
+    public static boolean peutEvaluer(Profil consultant, Profil candidat) {
+        if(consultant.getSpecialite() != candidat.getSpecialite()
+            || consultant.getNbAnneeExp() <= candidat.getNbAnneeExp()) {
+            return false;
+        }
+        return true;
     }
 }

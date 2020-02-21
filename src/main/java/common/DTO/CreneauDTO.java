@@ -1,4 +1,4 @@
-package model.entretien;
+package common.DTO;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
