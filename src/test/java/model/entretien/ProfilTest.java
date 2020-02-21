@@ -1,6 +1,10 @@
 package model.entretien;
 
 import common.DTO.ProfilDTO;
+import model.entretien.Profil;
+import model.entretien.ProfilStatut;
+import model.entretien.Specialite;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -11,7 +15,7 @@ class ProfilTest {
     public void testPeutEvaluer() {
         ProfilDTO consultant = new ProfilDTO("Paul", "Dupont", Specialite.JAVA, 5, ProfilStatut.CONSULTANT);
         ProfilDTO candidat = new ProfilDTO("Jean", "Chevalier", Specialite.JAVA, 3, ProfilStatut.CANDIDAT);
-        assertTrue(Profil.peutEvaluer(new Profil(consultant), new Profil(candidat)));
+        Assertions.assertTrue(Profil.peutEvaluer(new Profil(consultant), new Profil(candidat)));
 
         consultant = new ProfilDTO("Paul", "Dupont", Specialite.JAVA, 5, ProfilStatut.CONSULTANT);
         candidat = new ProfilDTO("Jean", "Chevalier", Specialite.JAVA, 8, ProfilStatut.CANDIDAT);
